@@ -1,0 +1,23 @@
+{
+  "architecture": "Custom Deep CNN (7 Conv2D Layers + BatchNorm + Dropout + Dense Softmax)",
+  "classes": [
+    "healthy",
+    "iris_yellow_virus",
+    "purple_blotch",
+    "stemphylium_blight"
+  ],
+  "class_to_idx": {
+    "healthy": 0,
+    "iris_yellow_virus": 1,
+    "purple_blotch": 2,
+    "stemphylium_blight": 3
+  },
+  "img_size": [
+    128,
+    128
+  ],
+  "val_accuracy": 29.63,
+  "val_loss": 1.8891,
+  "total_images": 4502,
+  "trained_at": "2026-11-23 22:25:28"
+}
