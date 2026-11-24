@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+env/
+.env.local
+
+# Python cache & build
+__pycache__/
+backend/__pycache__/
+backend/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+frontend/dist/
+
+# Credentials, Secrets & Local Databases
+.env
+backend/.env
+backend/admin.txt
+backend/agriai.db
+*.db
+*.sqlite3
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
